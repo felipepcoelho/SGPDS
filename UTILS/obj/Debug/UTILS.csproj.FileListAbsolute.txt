@@ -1,0 +1,6 @@
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\UTILS\bin\Debug\UTILS.dll
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\UTILS\bin\Debug\UTILS.pdb
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\UTILS\obj\Debug\UTILS.dll
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\UTILS\obj\Debug\UTILS.pdb
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\UTILS\bin\Debug\UTILS.dll.CodeAnalysisLog.xml
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\UTILS\bin\Debug\UTILS.dll.lastcodeanalysissucceeded

@@ -1,0 +1,6 @@
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\FRAMEWORK\bin\Debug\FRAMEWORK.dll
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\FRAMEWORK\bin\Debug\FRAMEWORK.pdb
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\FRAMEWORK\obj\Debug\FRAMEWORK.dll
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\FRAMEWORK\obj\Debug\FRAMEWORK.pdb
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\FRAMEWORK\bin\Debug\FRAMEWORK.dll.CodeAnalysisLog.xml
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\FRAMEWORK\bin\Debug\FRAMEWORK.dll.lastcodeanalysissucceeded

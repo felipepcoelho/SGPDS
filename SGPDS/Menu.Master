@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="SGPDS.Menu" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="Content/bootstrap.css" rel="stylesheet">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <div id="Menu">
+              <h1 style="color:white">SGDPS</h1>
+              <h3 style="color:white">Sistema de Gerenciamento de Projetos de Software</h3>
+          </div>
+          <a class="brand" href="#">SGDPS</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#contact">Projetos</a></li>
+              <li><a href="#contact">Documentos</a></li>
+              <li><a href="#about">Usuários</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

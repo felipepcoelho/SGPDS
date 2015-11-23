@@ -1,0 +1,10 @@
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\SGPDS\bin\SGPDS.dll
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\SGPDS\bin\SGPDS.pdb
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\SGPDS\obj\Debug\SGPDS.dll
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\SGPDS\obj\Debug\SGPDS.pdb
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\SGPDS\obj\Debug\SGPDS.csprojResolveAssemblyReference.cache
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\SGPDS\bin\UTILS.dll
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\SGPDS\bin\UTILS.pdb
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\SGPDS\bin\SGPDS.dll.config
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\SGPDS\bin\SGPDS.dll.CodeAnalysisLog.xml
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\SGPDS\bin\SGPDS.dll.lastcodeanalysissucceeded

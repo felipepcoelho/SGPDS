@@ -1,0 +1,13 @@
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\bin\Debug\CONTROLLER.dll
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\bin\Debug\CONTROLLER.pdb
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\bin\Debug\FRAMEWORK.dll
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\bin\Debug\FRAMEWORK.pdb
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\obj\Debug\CONTROLLER.csprojResolveAssemblyReference.cache
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\obj\Debug\CONTROLLER.dll
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\obj\Debug\CONTROLLER.pdb
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\bin\Debug\MODEL.dll
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\bin\Debug\UTILS.dll
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\bin\Debug\MODEL.pdb
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\bin\Debug\UTILS.pdb
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\bin\Debug\CONTROLLER.dll.CodeAnalysisLog.xml
+C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\CONTROLLER\bin\Debug\CONTROLLER.dll.lastcodeanalysissucceeded

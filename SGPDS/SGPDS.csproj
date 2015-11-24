@@ -73,6 +73,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Menu.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap-alert.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
@@ -116,6 +117,18 @@
     <Folder Include="Usuarios\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CONTROLLER\CONTROLLER.csproj">
+      <Project>{10334dc4-88eb-4c66-af46-f6ff8e95dfc3}</Project>
+      <Name>CONTROLLER</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FRAMEWORK\FRAMEWORK.csproj">
+      <Project>{ba8dd2e6-4750-4cdb-8c21-b84b7cfeed42}</Project>
+      <Name>FRAMEWORK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MODEL\MODEL.csproj">
+      <Project>{24aad6c6-e36d-4414-9380-28510d77f078}</Project>
+      <Name>MODEL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UTILS\UTILS.csproj">
       <Project>{b162fc26-5c83-4697-9a23-8620d81dd401}</Project>
       <Name>UTILS</Name>

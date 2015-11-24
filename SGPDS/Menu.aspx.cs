@@ -11,7 +11,8 @@ namespace SGPDS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["usuarioID"] == null)
+                Response.Redirect("index.aspx");
         }
     }
 }

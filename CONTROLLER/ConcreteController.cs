@@ -13,13 +13,12 @@ namespace CONTROLLER
     public abstract class ConcreteController:IController 
     {
         protected void executeCommand(SqlCommand command){
-            SqlConnection con = new SqlConnection();
+            SqlConnection conn = new SqlConnection(Conexao.Local);
             try
             {
-                con.ConnectionString = Conexao.Local;
-                if (con.State == System.Data.ConnectionState.Closed)
-                    con.Open();
-                command.Connection = con;
+                if (conn.State == System.Data.ConnectionState.Closed)
+                    conn.Open();
+                command.Connection = conn;
                 command.ExecuteNonQuery();
             }
             catch (Exception ex)
@@ -27,7 +26,7 @@ namespace CONTROLLER
                 throw ex;
             }
             finally {
-                con.Close();
+                conn.Close();
             }
         }
         
@@ -35,6 +34,6 @@ namespace CONTROLLER
 
         public abstract void deletar(IModel model);
 
-        public abstract IModel consultar(IModel model);
+        public abstract Object consultar(IModel model);
     }
 }

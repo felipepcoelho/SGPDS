@@ -10,7 +10,7 @@ namespace FRAMEWORK
     {
         void cadastrar(IModel model);
         void deletar(IModel model);
-        IModel consultar(IModel model);
+        Object consultar(IModel model);
     }
 
 }

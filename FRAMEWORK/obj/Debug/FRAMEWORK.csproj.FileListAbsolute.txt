@@ -6,6 +6,5 @@ C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\FRAMEWORK\bin\Debug\FRAMEWORK.dll.Co
 C:\Users\Felipe\Desktop\ProjetoRedesI\SGPDS\FRAMEWORK\bin\Debug\FRAMEWORK.dll.lastcodeanalysissucceeded
 C:\Users\Felipe\Source\Repos\SGPDS\FRAMEWORK\bin\Debug\FRAMEWORK.dll
 C:\Users\Felipe\Source\Repos\SGPDS\FRAMEWORK\bin\Debug\FRAMEWORK.pdb
-C:\Users\Felipe\Source\Repos\SGPDS\FRAMEWORK\obj\Debug\FRAMEWORK.csprojResolveAssemblyReference.cache
 C:\Users\Felipe\Source\Repos\SGPDS\FRAMEWORK\obj\Debug\FRAMEWORK.dll
 C:\Users\Felipe\Source\Repos\SGPDS\FRAMEWORK\obj\Debug\FRAMEWORK.pdb

@@ -16,3 +16,9 @@ C:\Users\Felipe\Source\Repos\SGPDS\SGPDS\bin\UTILS.pdb
 C:\Users\Felipe\Source\Repos\SGPDS\SGPDS\obj\Debug\SGPDS.csprojResolveAssemblyReference.cache
 C:\Users\Felipe\Source\Repos\SGPDS\SGPDS\obj\Debug\SGPDS.dll
 C:\Users\Felipe\Source\Repos\SGPDS\SGPDS\obj\Debug\SGPDS.pdb
+C:\Users\Felipe\Source\Repos\SGPDS\SGPDS\bin\CONTROLLER.dll
+C:\Users\Felipe\Source\Repos\SGPDS\SGPDS\bin\FRAMEWORK.dll
+C:\Users\Felipe\Source\Repos\SGPDS\SGPDS\bin\MODEL.dll
+C:\Users\Felipe\Source\Repos\SGPDS\SGPDS\bin\CONTROLLER.pdb
+C:\Users\Felipe\Source\Repos\SGPDS\SGPDS\bin\FRAMEWORK.pdb
+C:\Users\Felipe\Source\Repos\SGPDS\SGPDS\bin\MODEL.pdb

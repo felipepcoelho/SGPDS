@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
     <!-- Le styles -->
-    <link href="Content/bootstrap.css" rel="stylesheet"/>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
     <style type="text/css">
         body {
             padding-top: 40px;
@@ -29,8 +29,9 @@
         }
 
             .form-signin .form-signin-heading {
-                text-align:center;
+                text-align: center;
             }
+
             .form-signin .checkbox {
                 margin-bottom: 10px;
             }
@@ -43,7 +44,7 @@
                 padding: 7px 9px;
             }
     </style>
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet"/>
+
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -51,31 +52,41 @@
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Content/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="Content/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="Content/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="Content/ico/apple-touch-icon-57-precomposed.png"/>
-    <link rel="shortcut icon" href="../assets/ico/favicon.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Content/ico/apple-touch-icon-144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="Content/ico/apple-touch-icon-114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="Content/ico/apple-touch-icon-72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="Content/ico/apple-touch-icon-57-precomposed.png" />
+    <link rel="shortcut icon" href="../assets/ico/favicon.png" />
 </head>
 <body>
     <form id="form1" runat="server">
-       <div class="container">
-        <div class="form-signin">
-        <h2 class="form-signin-heading">SGPDS</h2>
-            <p style="text-align:center">Sistema de Gerenciamento de Projetos de Desenvolvimento de Software</p>
-         <asp:TextBox ID="tbLogin" class="input-block-level" runat="server" placeholder="Login"></asp:TextBox>
-         <asp:TextBox ID="tbSenha" class="input-block-level" runat="server" placeholder="Senha" TextMode="Password"></asp:TextBox>
-        <label class="checkbox">
-            Lembrar-me
+        <div class="container">
+            <div class="form-signin">
+                <h2 class="form-signin-heading">SGPDS</h2>
+                <p style="text-align: center">Sistema de Gerenciamento de Projetos de Desenvolvimento de Software</p>
+                <asp:TextBox ID="tbLogin" class="input-block-level" runat="server" placeholder="Login"></asp:TextBox>
+                <asp:TextBox ID="tbSenha" class="input-block-level" runat="server" placeholder="Senha" TextMode="Password"></asp:TextBox>
+                <label class="checkbox">
+                    Lembrar-me
             <asp:CheckBox ID="cbLembrarMe" runat="server" />
-        </label>
-            <asp:Button ID="bLogar"  class="btn btn-large btn-primary" runat="server" Text="ENTRAR" OnClick="bLogar_Click" />
-            <div class="alert">
-            <button type="button" class="close" data-dismiss="alert">&times;</button>
-            <strong>Warning!</strong> Best check yo self, you're not looking too good.
-            </div>
-         </div>
-    </div> <!-- /container -->
+                </label>
+                <asp:Button ID="bLogar" class="btn btn-large btn-primary" runat="server" Text="ENTRAR" OnClick="bLogar_Click" />
+                <p></p>
+                <asp:Panel ID="pAlertErro" runat="server" Visible="false">
+                    <div class="alert alert-error">
+                        <asp:Button ID="bAlertErroClose" runat="server" class="close" Text="x" OnClick="bAlertErroClose_Click" />
+                        <strong>ATENÇÃO:</strong> Os dados fornecidos estão incorretos...
+                    </div>
+                </asp:Panel>
+
+                </div>
+        </div>
+        <!-- /container -->
+        <!-- Le javascript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="Scripts/bootstrap-alert.js"></script>
+
     </form>
 </body>
 </html>

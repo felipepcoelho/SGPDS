@@ -308,6 +308,10 @@ a:focus {
   width: 780px;
 }
 
+.space-10 {
+   margin-top:10px;
+}
+
 .span9 {
   width: 700px;
 }

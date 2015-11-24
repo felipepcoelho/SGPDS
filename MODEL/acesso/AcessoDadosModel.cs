@@ -14,7 +14,7 @@ namespace MODEL.acesso
         public int ID {get;set;}
         public string Login { get; set; }
         public string Senha {get;set;}
-        public UsuarioCadastroModel Usuario{get;set;};
+        public UsuarioCadastroModel Usuario{get;set;}
         #endregion
 
         #region Construtores

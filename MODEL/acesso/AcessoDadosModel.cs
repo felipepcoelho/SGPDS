@@ -10,14 +10,12 @@ namespace MODEL.acesso
 {
     public class AcessoDadosModel:IModel
     {
-        #region Atributos
+
         public int ID {get;set;}
         public string Login { get; set; }
         public string Senha {get;set;}
         public UsuarioCadastroModel Usuario{get;set;}
-        #endregion
 
-        #region Construtores
         public AcessoDadosModel() {
             this.Usuario = new UsuarioCadastroModel();
         }
@@ -29,7 +27,6 @@ namespace MODEL.acesso
             this.Senha = model.Senha;
             this.Usuario = model.Usuario;
         }
-        #endregion
 
         public IModel clone()
         {

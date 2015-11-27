@@ -14,7 +14,7 @@ namespace CONTROLLER
 
         public override void cadastrar(FRAMEWORK.IModel model)
         {
-            string sql = @"INSERT INTO ACESSO.GAPS_ACESSO_DADOS
+            string sql = @"INSERT INTO ACESSO.SGPDS_ACESSO_DADOS
                                    (login
                                    ,senha
                                    ,ID_cadastroUsuario)
@@ -52,7 +52,7 @@ namespace CONTROLLER
                                   ,login
                                   ,senha
                                   ,ID_cadastroUsuario
-                              FROM [ACESSO].[GAPS_ACESSO_DADOS]
+                              FROM ACESSO.SGPDS_ACESSO_DADOS
                               WHERE login = @login AND senha = @senha";
             SqlConnection conn = new SqlConnection(Conexao.Local);
             SqlCommand command = new SqlCommand(sql,conn);

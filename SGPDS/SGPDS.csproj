@@ -72,8 +72,11 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Menu.Master" />
+    <Content Include="Pessoas\Pessoas.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Pessoas\PessoasConsulta.aspx" />
     <Content Include="Scripts\bootstrap-alert.js" />
+    <Content Include="Scripts\bootstrap-dropdown.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
@@ -103,6 +106,20 @@
     <Compile Include="Menu.Master.designer.cs">
       <DependentUpon>Menu.Master</DependentUpon>
     </Compile>
+    <Compile Include="Pessoas\Pessoas.Master.cs">
+      <DependentUpon>Pessoas.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pessoas\Pessoas.Master.designer.cs">
+      <DependentUpon>Pessoas.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pessoas\PessoasConsulta.aspx.cs">
+      <DependentUpon>PessoasConsulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pessoas\PessoasConsulta.aspx.designer.cs">
+      <DependentUpon>PessoasConsulta.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -113,9 +130,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Usuarios\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\CONTROLLER\CONTROLLER.csproj">
       <Project>{10334dc4-88eb-4c66-af46-f6ff8e95dfc3}</Project>

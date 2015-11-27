@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="acesso\AcessoDadosModel.cs" />
+    <Compile Include="perfil\PerfilPermissoes.cs" />
+    <Compile Include="perfil\PerfilTiposModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="usuario\UsuarioCadastroModel.cs" />
   </ItemGroup>

@@ -628,6 +628,13 @@ a:focus {
   *zoom: 1;
 }
 
+.container2 {
+  margin-top:200px;
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
 .container:before,
 .container:after {
   display: table;

@@ -1,4 +1,5 @@
 ﻿using FRAMEWORK;
+using MODEL.perfil;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,22 +10,27 @@ namespace MODEL.usuario
 {
     public class UsuarioCadastroModel:IModel
     {
-        #region Atributos
+
         public int ID { get; set; }
         public string Nome {get;set;}
         public int Idade {get;set;}
         public DateTime DataNascimento{get;set;}
         public string Cpf {get;set;}
         public string Rg{get;set;}
-        #endregion
+        public PerfilTiposModel PefilTipos { get; set; }
 
-        #region Construtores
-        public UsuarioCadastroModel() { }
-
-        public UsuarioCadastroModel(UsuarioCadastroModel model) { 
-            
+        public UsuarioCadastroModel() {
+            this.PefilTipos = new PerfilTiposModel();
         }
-#endregion
+
+        public UsuarioCadastroModel(UsuarioCadastroModel model) {
+            this.ID = model.ID;
+            this.Nome = model.Nome;
+            this.Idade = model.Idade;
+            this.DataNascimento = model.DataNascimento;
+            this.PefilTipos = model.PefilTipos;
+
+        }
 
         public IModel clone()
         {

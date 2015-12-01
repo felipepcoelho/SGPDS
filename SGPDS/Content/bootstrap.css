@@ -27,6 +27,14 @@
   clear: both;
 }
 
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
+
 .hide-text {
   font: 0/0 a;
   color: transparent;
@@ -310,6 +318,17 @@ a:focus {
 
 .space-10 {
    margin-top:10px;
+   margin-bottom:10px;
+}
+
+.space-20 {
+   margin-top:20px;
+   margin-bottom:20px;
+}
+
+.space-30 {
+   margin-top:30px;
+   margin-bottom:30px;
 }
 
 .span9 {
@@ -629,7 +648,7 @@ a:focus {
 }
 
 .container2 {
-  margin-top:200px;
+  margin-top:170px;
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;

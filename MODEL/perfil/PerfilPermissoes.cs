@@ -12,13 +12,17 @@ namespace MODEL.perfil
         public int ID { get; set; }
         public Guid chave { get; set; }
         public string pagina { get; set;}
+        public PerfilTiposModel pefilTipo { get; set; }
 
-        public PerfilPermissoes() { }
+        public PerfilPermissoes() { 
+            this.pefilTipo = new PerfilTiposModel();
+        }
 
         public PerfilPermissoes(PerfilPermissoes model) {
             this.ID = model.ID;
             this.chave = model.chave;
             this.pagina = model.pagina;
+            this.pefilTipo = model.pefilTipo;
         }
 
         public IModel clone()

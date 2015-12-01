@@ -74,6 +74,7 @@
     <Content Include="Menu.Master" />
     <Content Include="Pessoas\Pessoas.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Pessoas\PessoasCadastro.aspx" />
     <Content Include="Pessoas\PessoasConsulta.aspx" />
     <Content Include="Scripts\bootstrap-alert.js" />
     <Content Include="Scripts\bootstrap-dropdown.js" />
@@ -112,6 +113,13 @@
     </Compile>
     <Compile Include="Pessoas\Pessoas.Master.designer.cs">
       <DependentUpon>Pessoas.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pessoas\PessoasCadastro.aspx.cs">
+      <DependentUpon>PessoasCadastro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pessoas\PessoasCadastro.aspx.designer.cs">
+      <DependentUpon>PessoasCadastro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pessoas\PessoasConsulta.aspx.cs">
       <DependentUpon>PessoasConsulta.aspx</DependentUpon>

@@ -40,10 +40,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="acesso\AcessoDadosModel.cs" />
+    <Compile Include="Endereco\EnderecoBairroModel.cs" />
+    <Compile Include="Endereco\EnderecoCidadeModel.cs" />
+    <Compile Include="Endereco\EnderecoEstadoModel.cs" />
+    <Compile Include="Endereco\EnderecoLogradouroModel.cs" />
     <Compile Include="perfil\PerfilPermissoes.cs" />
     <Compile Include="perfil\PerfilTiposModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="usuario\UsuarioCadastroModel.cs" />
+    <Compile Include="usuario\UsuarioTipoModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FRAMEWORK\FRAMEWORK.csproj">

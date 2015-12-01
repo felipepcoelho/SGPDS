@@ -72,11 +72,9 @@
                 </label>
                 <asp:Button ID="bLogar" class="btn btn-large btn-primary" runat="server" Text="ENTRAR" OnClick="bLogar_Click" />
                 <p></p>
-                <asp:Panel ID="pAlertErro" runat="server" Visible="false">
-                    <div class="alert alert-error">
+                <asp:Panel ID="pAlertErro"  class="alert alert-error" runat="server" Visible="false">
                         <asp:Button ID="bAlertErroClose" runat="server" class="close" Text="x" OnClick="bAlertErroClose_Click" />
                         <strong>ATENÇÃO:</strong> Os dados fornecidos estão incorretos...
-                    </div>
                 </asp:Panel>
 
                 </div>
